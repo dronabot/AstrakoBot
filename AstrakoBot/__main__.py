@@ -59,7 +59,7 @@ You can find my list of available commands with /help.
 
 HELP_STRINGS = """
 Hello Hooman !! It me , The Allmighty Lord DronaRobot. I can manage your chats easily with some kewl Features. Just add me to your groups and make me admin !!
-"""
+
 *Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
