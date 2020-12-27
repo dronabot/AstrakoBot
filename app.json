@@ -1,14 +1,14 @@
 {
-      "name": "AstrakoBot",
+      "name": "DronaBot",
       "description": "A modular Telegram group management bot.",
       "keywords": [
          "telegram",
-         "anime",
+         "Drona",
          "group",
          "manager",
-         "AstrakoBot"
+         "Dronabot"
       ],   
-   "repository": "https://github.com/Astrako/AstrakoBot",
+   "repository": "https://github.com/dronabot/AstrakoBot",
    "addons": [
       {
          "options": {
