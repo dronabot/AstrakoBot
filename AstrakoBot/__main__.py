@@ -52,16 +52,14 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am a modular group management bot.
+I am Lord Drona the Allmighty
 
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot and help admins manage their groups. Have a look at the following for an idea of some of \
-the things I can help you with.
-
+Hello Hooman !! It me , The Allmighty Lord DronaRobot. I can manage your chats easily with some kewl Features. Just add me to your groups and make me admin !!
+"""
 *Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
@@ -77,10 +75,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ASTRAKOBOT_IMG = "https://i.imgur.com/1oah5E2.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/20ce7869382f3bafcb913.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
+DronaBot is hosted on heroku free server and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
@@ -200,24 +198,20 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add AstrakoBot to your group",
+                            text="Add DronaRobot to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="Support Group",
-                             url=f"https://t.me/AstrakoBotSupport"),
+                             text="In case you need sum noob help",
+                             url=f"https://www.google.com"),
                      ],
+                    
                      [
                          InlineKeyboardButton(
-                             text="Getting started guide",
-                             url="https://t.me/OnePunchUpdates/29")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="Source code",
-                             url="https://github.com/Astrako/AstrakoBot")
+                             text="Source code, kanged code btw",
+                             url="https://github.com/dronabot/AstrakoBot")
                      ]]))
     else:
         update.effective_message.reply_text(
